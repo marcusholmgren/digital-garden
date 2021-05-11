@@ -1,5 +1,7 @@
 # Digital Garden
 
+[![Rust](https://github.com/marcusholmgren/digital-garden/actions/workflows/rust.yml/badge.svg)](https://github.com/marcusholmgren/digital-garden/actions/workflows/rust.yml)
+
 A CLI tool for the creation and maintenance of Digital Gardens.
 
 ## Commands
