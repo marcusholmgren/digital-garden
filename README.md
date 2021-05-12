@@ -4,6 +4,26 @@
 
 A CLI tool for the creation and maintenance of Digital Gardens.
 
+## Run and test
+
+Given that you have Rust installed locally. Navigate into the cloned folder and issue the following commands for running application and tests.
+
+Run the application
+```
+cargo run
+```
+
+Run the application with argument to write new post
+```
+cargo run -- write
+```
+
+Runs the test suite
+```
+cargo test
+```
+
+
 ## Commands
 
 ## Write
