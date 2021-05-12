@@ -26,6 +26,12 @@ cargo test
 
 ## Commands
 
+```shell
+GARDEN_PATH=~/github/my-digital-garden garden write
+garden -p ~/github/my-digital-garden write
+garden --garden_path ~/github/my-digital-garden write
+```
+
 ## Write
 
 Open a new file to write in our digital garden.
