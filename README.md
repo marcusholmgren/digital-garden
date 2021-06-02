@@ -18,6 +18,17 @@ Run the application with argument to write new post
 cargo run -- write
 ```
 
+Run the application and use Visual Studio Code as your default editor
+
+```
+EDITOR="code -w" cargo run -- write
+```
+
+Set garden path and run with VS Code
+```
+GARDEN_PATH=~/.garden && EDITOR="code -w" cargo run -- write
+```
+
 Runs the test suite
 ```
 cargo test
