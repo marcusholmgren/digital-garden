@@ -23,4 +23,4 @@ slug = "0.1.4"
 structopt = "0.3.21"
 
 [dev-dependencies]
-assert_cmd = "1.0.3"
+assert_cmd = "1.0.5"
