@@ -29,7 +29,13 @@ Set garden path and run with VS Code
 GARDEN_PATH=~/.garden && EDITOR="code -w" cargo run -- write
 ```
 
-Runs the test suite
+### Runs the test suite
+Test suite require execute permission on `tests/fake-editor.sh`
+
+```
+chmod +x ./tests/fake-editor.sh
+```
+
 ```
 cargo test
 ```

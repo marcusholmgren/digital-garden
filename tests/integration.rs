@@ -22,7 +22,6 @@ fn test_write_help() -> Result<()> {
 
 
 #[test]
-#[ignore]
 fn test_write_with_title() {
     let temp_dir = assert_fs::TempDir::new().unwrap();
 
@@ -47,8 +46,13 @@ fn test_write_with_title() {
         .assert();
 
     assert.success();
+    println!("{}", temp_dir.path().display());
 
     temp_dir
         .child("atitle.md")
         .assert(predicate::path::exists());
+
+
+    // Ensure deletion happens.
+    temp_dir.close().unwrap();
 }
