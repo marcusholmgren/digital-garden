@@ -60,6 +60,14 @@ garden write
 garden write -t "Some Title"
 ```
 
+## cargo-dist
+
+Use cargo-release to create release pipeline. See article [release engineering is exhausting so here's cargo-dist](https://blog.axo.dev)
+
+```shell
+# cut a release
+cargo release 0.1.0
+```
 
 ## Credits
 
