@@ -1,5 +1,6 @@
 [package]
 name = "digital-garden"
+description = "A CLI tool for the creation and maintenance of Digital Gardens"
 version = "0.1.0"
 authors = ["Marcus Holmgren <marcus.holmgren1@gmail.com>"]
 edition = "2018"
